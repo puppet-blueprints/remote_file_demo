@@ -1,0 +1,18 @@
+FORGE
+  remote: http://forge.puppetlabs.com
+  specs:
+    puppetlabs/stdlib (4.2.1)
+    saz/sudo (3.0.6)
+      puppetlabs/stdlib (>= 2.3.0)
+
+GIT
+  remote: git://github.com/lwf/puppet-remote_file.git
+  ref: master
+  sha: 7f0a1a2ed072652a53060f95b27fb318530e2eed
+  specs:
+    lwf/remote_file (0.1.0)
+
+DEPENDENCIES
+  lwf/remote_file (>= 0)
+  saz/sudo (>= 0)
+
