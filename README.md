@@ -1,8 +1,8 @@
-#Puppet Blueprint: skel
+#Puppet Blueprint: remote_file Demo
 
 ##Description
 
-The base Puppet Blueprint skeleton to create new blueprints with.
+A Puppet Blueprint for demo and testing of the remote_file custom resource.
 
 ##Requirements
 
