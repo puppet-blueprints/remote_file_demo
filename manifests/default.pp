@@ -26,7 +26,8 @@ hiera_include('classes')
 create_resources(sudo::conf, hiera('sudo::rules'))
 
 node default {
-  #include '::apt'
-
-  include remote_file
+  remote_file { '/tmp/puppet-remote_file-master.zip':
+    ensure   => 'present',
+    source   => 'https://github.com/lwf/puppet-remote_file/archive/master.zip',
+  }
 }
